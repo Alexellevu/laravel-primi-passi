@@ -7,6 +7,8 @@
     <title>Home_laravel</title>
 </head>
 <body>
-    <h1>hello word</h1>
+ 
+
+    <h2> {{$name}} </h2>
 </body>
 </html>

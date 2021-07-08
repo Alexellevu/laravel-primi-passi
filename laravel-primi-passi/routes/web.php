@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    
+    $prova = [
+        'name' =>'Italia',
+    ];
+
+   return view('home', $prova);
+
+
 });
+
+
